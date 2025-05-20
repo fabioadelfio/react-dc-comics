@@ -65,6 +65,9 @@ ul {
 
 .col-1-5 {
     width: calc(100% / 5);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 .col-2-3 {
@@ -116,4 +119,18 @@ ul {
     color: white;
     font-size: 1rem;
     font-weight: bold;
+}
+
+#merchandise {
+    background-color: #0479E6;
+    color: white;
+    font-size: 0.6rem;
+}
+
+#merchandise .row {
+    padding: 20px 0;
+}
+
+#merchandise img {
+    width: 20%;
 }

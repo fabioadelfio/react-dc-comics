@@ -1,3 +1,5 @@
+import Merchandise from "./Merchandise";
+
 export default function Main() {
     return (
         <main>
@@ -6,6 +8,7 @@ export default function Main() {
                     <div>--&gt; Content goes here &lt;--</div>
                 </div>
             </div>
+            <Merchandise />
         </main>
     );
 }
