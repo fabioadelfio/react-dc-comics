@@ -8,6 +8,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    height: 100vh;
 }
 
 img {
@@ -133,4 +134,73 @@ ul {
 
 #merchandise img {
     width: 20%;
+}
+
+/* # FOOTER */
+
+#page-info {
+    background-image: url(../../../footer-bg.jpg);
+}
+
+#page-info .container {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-info {
+    padding: 10px 0;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+#page-info ul {
+    color: gray;
+    font-size: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+#page-info .links {
+    display: flex;
+    width: 40%;
+}
+
+.logo-footer {
+    padding: 100px;
+    background-image: url("../../../dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+}
+
+#page-footer {
+    background-color: #303030;
+}
+
+#page-footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-up {
+    color: white;
+    border: 2px solid #0084FE;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 0.8rem;
+    color: #0084FE;
+    font-weight: bold;
+}
+
+.social img {
+    width: 80%;
 }
