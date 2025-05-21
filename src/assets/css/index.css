@@ -215,3 +215,46 @@ ul {
 .social img {
     width: 80%;
 }
+
+/* # ALERT */
+
+.alert {
+    padding: 1rem 0;
+    margin: 1rem 0;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-green {
+    background-color: green;
+}
