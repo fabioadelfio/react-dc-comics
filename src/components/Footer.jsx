@@ -3,7 +3,7 @@ export default function Footer() {
         <footer>
             <div id="page-info">
                 <div className="container">
-                        <div className="links">
+                        <div className="col-1-2 links">
                             <div className="col-1-3">
                                 <div className="title-info">DC COMICS</div>
                                 <ul>
@@ -100,8 +100,10 @@ export default function Footer() {
                             </div>
                         </div>
 
-                        <div className="logo-footer">
-                            
+                        <div className="col-1-2">
+                            <div className="logo-footer">
+                                <img src="./dc-logo-bg.png" alt="" />
+                            </div>
                         </div>
                 </div>
 
