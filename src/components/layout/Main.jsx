@@ -1,5 +1,6 @@
 import Merchandise from "./Merchandise";
 import Alert from "./Alert";
+import ComicsList from "../products/comicsList";
 
 export default function Main() {
     return (
@@ -33,7 +34,7 @@ export default function Main() {
 
                 <div className="content">
                     <div className="container">
-                        
+                        <ComicsList />
                     </div>
                 </div>
             </div>
