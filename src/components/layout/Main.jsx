@@ -16,14 +16,14 @@ export default function Main() {
 
                 {/* Esempio con children */}
 
-                <Alert textColor="black" bgColor="yellow">
+                {/* <Alert textColor="black" bgColor="yellow">
                     <h3>Attenzione!</h3>
                     <p>Il tuo abbonamento sta per scadere!</p>
-                </Alert>
+                </Alert> */}
 
                 {/* Esempio Alert base */}
 
-                <Alert />
+                {/* <Alert /> */}
 
                 <div className="container">
                     <div>--&gt; Content goes here &lt;--</div>
