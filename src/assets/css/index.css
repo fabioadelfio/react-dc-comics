@@ -71,6 +71,13 @@ ul {
     gap: 1rem;
 }
 
+.col-1-6 {
+    width: calc(100% / 6);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
 .col-2-3 {
     width: calc(100% / 3 * 2);
 }
@@ -139,9 +146,47 @@ ul {
 }
 
 .content {
-    padding: 20px 0;
+    padding: 40px 0;
 }
 
+.comics-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+
+.comic-card {
+    max-width: 180px;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.comic-title {
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.comic-card img {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    object-fit: cover;
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+}
+
+.more-cards {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    padding: 10px 50px;
+    background-color: #0479E6;
+    width: 177px;
+}
 
 #merchandise {
     position: relative;

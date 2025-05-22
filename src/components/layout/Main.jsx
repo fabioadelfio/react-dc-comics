@@ -35,6 +35,11 @@ export default function Main() {
                 <div className="content">
                     <div className="container">
                         <ComicsList />
+                        <div className="load-more">
+                            <div className="more-cards">
+                                LOAD MORE
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

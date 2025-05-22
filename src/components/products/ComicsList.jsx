@@ -1,5 +1,5 @@
 import comics from "../../data/comics"
-import ComicCard from "./comicCard";
+import ComicCard from "./ComicCard"
 
 export default function ComicsList() {
     return (
