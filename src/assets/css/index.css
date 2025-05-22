@@ -114,13 +114,34 @@ ul {
 
 /* # MAIN */
 
+.jumbotron {
+    background-image: url(../../../jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+}
+
 #page-content {
-    padding: 35px 0;
     background-color: #1C1C1C;
     color: white;
     font-size: 1rem;
     font-weight: bold;
 }
+
+.title-content {
+    width: 161px;
+    padding: 5px 15px;
+    background-color: #0479E6;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(50%);
+}
+
+.content {
+    padding: 20px 0;
+}
+
 
 #merchandise {
     position: relative;

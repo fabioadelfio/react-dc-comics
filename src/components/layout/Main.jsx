@@ -8,11 +8,11 @@ export default function Main() {
 
                 {/* Esempio senza children */}
 
-                <Alert 
+                {/* <Alert 
                     text="Errore"    
                     textColor="black"
                     bgColor="red"
-                />
+                /> */}
 
                 {/* Esempio con children */}
 
@@ -25,8 +25,16 @@ export default function Main() {
 
                 {/* <Alert /> */}
 
-                <div className="container">
-                    <div>--&gt; Content goes here &lt;--</div>
+                <div className="jumbotron">
+                    <div className="container">
+                        <div className="title-content">CURRENT SERIES</div>
+                    </div>
+                </div>
+
+                <div className="content">
+                    <div className="container">
+                        
+                    </div>
                 </div>
             </div>
             <Merchandise />
